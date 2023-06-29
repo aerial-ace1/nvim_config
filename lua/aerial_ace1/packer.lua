@@ -143,4 +143,6 @@ return require("packer").startup(function(use)
             require('git').setup()
         end,
     })
+
+    use {'github/copilot.vim', branch = 'release' }
 end)
